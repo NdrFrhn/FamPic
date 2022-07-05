@@ -1,0 +1,41 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(rgb(164, 190, 221) 70%, blue);
+    margin:auto;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    cursor: default;
+  }
+  
+  .is-active {
+    font-weight: bold;
+  }
+  
+  .image {
+    aspect-ratio: auto;
+    max-width: 500px;
+    max-height: 400px;
+    border: 2px solid black;
+  }
+
+  .title {
+    font-size: 50px;
+    text-indent: 80px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  header.header {
+    font-size: 25px;
+  }
